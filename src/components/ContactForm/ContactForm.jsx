@@ -3,7 +3,7 @@ import { Formik, Field } from 'formik';
 import { Form, FormField, ErrorMessage, Button } from './ContactForm.styled';
 import * as Yup from 'yup';
 
-import { addContact } from 'redux/contactsSlice';
+import { addContact } from 'redux/operations';
 import { selectContacts } from 'redux/selectors';
 
 const initialValues = {
